@@ -1,0 +1,76 @@
+.cart{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+}
+.cart1{
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-img{
+    display: flex;
+    width: 50%;
+    align-items: center;
+   
+}
+.cart-img h3{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.cart-img img{
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+}
+.cart-element{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.c1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient( 180deg,rgb(1, 4, 74),rgb(4, 12, 255)); 
+    margin: 0 10px 0 10px;
+    transition: all 0.3s;
+}
+.c1:hover{
+    box-shadow: 0px 0px 50px  2px rgb(34, 5, 119);
+}
+.c2{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient( 180deg,rgb(32, 38, 208),rgb(4, 12, 255)); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.c2:hover{
+  background: red;
+    color: white;
+    box-shadow: 0px 0px 50px  2px red;
+}
+.total{
+    width: 100%;
+    display: flex;
+    font-size: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+   margin-right: 17%;
+  color: rgb(2, 15, 50);
+
+}

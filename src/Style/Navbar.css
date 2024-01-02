@@ -1,0 +1,39 @@
+.nav{
+    width: 100%;
+    height:12vh;
+    background: linear-gradient( 180deg,rgb(1, 4, 74),rgb(4, 12, 255));   
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+.name{
+    margin-left: 50px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.sepet{
+    display: flex;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.sepet1{
+   font-size: 45px;
+}
+.sepet2{
+    border-radius: 50%;
+    background-color: red;
+    padding: 5px;
+    margin-left: 10px;
+    min-width:30px;
+    width:auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
